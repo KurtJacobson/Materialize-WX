@@ -1,0 +1,101 @@
+.card-content {
+  padding: 0
+}
+
+.card-title i {
+  float: right;
+  font-size: 48;
+}
+
+.primary-card-value {
+  font-size: 3.5rem;
+  text-align: center
+}
+
+.primary-card-value i {
+  color: #babdb6;
+}
+
+/*Units at upper right*/
+.primary-card-value sup {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: .6em;
+  padding-left: .1em
+}
+
+.secondary-card-value {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.secondary-card-value p {
+  font-size: 20pt;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/***************************
+Notifications bar
+***************************/
+.notification {
+  padding: 0px
+}
+
+.notification a {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  cursor:pointer; 
+}
+
+
+
+
+
+/***************************
+High / Low data table
+***************************/
+
+.high-low-table {
+  font-size: 15px;
+  line-height: 1.15;
+  padding: 0
+}
+
+.high-low-table caption {
+  font-size: 14pt;
+  margin: -20;
+  padding-bottom: 8px;
+}
+
+.high-low-table td, th {
+  text-align: center;
+  padding: 2px;
+}
+
+.modal_plot {
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/*Fix overly blocking side nav*/
+#sidenav-overlay {
+  z-index: 10;
+}
+
+pre {
+    overflow: auto;
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
