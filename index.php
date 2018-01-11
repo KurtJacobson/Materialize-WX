@@ -71,8 +71,8 @@
     </script>
   </header>
 
-  <body>
 
+  <body>
     <div class="container">
 
       <!--Notification card-->
@@ -86,7 +86,7 @@
       </div>
       <!--End notification card-->
 
-
+      <!-- Information card grid layout -->
       <div class="row">
 
         <!--Temperature card-->
@@ -307,6 +307,7 @@
         </div>
 
       </div>
+      <!-- End information card grid layout -->
 
 
       <!-- Modal Structure -->
@@ -318,6 +319,7 @@
         </div>
       </div>
 
+      <!-- Highcharts plot js -->
       <script src="script.js"></script>
 
       <script>
