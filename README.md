@@ -18,9 +18,7 @@ These are some of the (overly ambitious?) goals for this project:
 # Screen Shots
 
 ## Desktop
-
-![desktop](screenshots/desktop.png)
+<img src="screenshots/desktop.png" alt="desktop">
 
 ## Mobile
-
-![mobile](screenshots/mobile.png)
+<img src="screenshots/mobile.png" alt="mobile" width=300>
